@@ -33,7 +33,7 @@ public class Registeration {
 	}
 	
 	/*
-	 * Register with valid Email and Password
+	 * Register with valid Email and invalid Password
 	 */
 	
 	@Test

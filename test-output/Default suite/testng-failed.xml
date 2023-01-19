@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DemoRequests.DelayResponse">
+      <class name="DemoRequests.Create_User">
         <methods>
-          <include name="delayResponseForSecound"/>
+          <include name="createNewUserWithValidData"/>
         </methods>
-      </class> <!-- DemoRequests.DelayResponse -->
+      </class> <!-- DemoRequests.Create_User -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
