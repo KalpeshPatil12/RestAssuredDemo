@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-19T17:27:26 IST" name="Default suite" finished-at="2023-01-19T17:27:30 IST" duration-ms="4226">
+  <suite started-at="2023-01-20T10:43:51 IST" name="Default suite" finished-at="2023-01-20T10:43:55 IST" duration-ms="4158">
     <groups>
     </groups>
-    <test started-at="2023-01-19T17:27:26 IST" name="Default test" finished-at="2023-01-19T17:27:30 IST" duration-ms="4226">
-      <class name="DemoRequests.Create_User">
-        <test-method signature="createRandomData()[pri:0, instance:DemoRequests.Create_User@4b0d79fc]" started-at="2023-01-19T17:27:26 IST" name="createRandomData" finished-at="2023-01-19T17:27:30 IST" duration-ms="4133" status="PASS">
+    <test started-at="2023-01-20T10:43:51 IST" name="Default test" finished-at="2023-01-20T10:43:55 IST" duration-ms="4158">
+      <class name="DemoRequests.Registeration">
+        <test-method signature="registerWithOnlyEnteringPassword()[pri:0, instance:DemoRequests.Registeration@d9345cd]" started-at="2023-01-20T10:43:51 IST" name="registerWithOnlyEnteringPassword" finished-at="2023-01-20T10:43:55 IST" duration-ms="4099" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createRandomData -->
-      </class> <!-- DemoRequests.Create_User -->
+        </test-method> <!-- registerWithOnlyEnteringPassword -->
+      </class> <!-- DemoRequests.Registeration -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,8 +3,13 @@ package DemoRequests;
 import static io.restassured.RestAssured.baseURI;
 import static io.restassured.RestAssured.given;
 
+import java.util.LinkedHashMap;
+import java.util.Map;
+
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
 
 public class Create_User {
 	
@@ -78,5 +83,32 @@ public class Create_User {
 			   statusCode(201);
 		
 	}
+	
+	/*
+	 * 
+	 */
+	
+//	@Test
+//	public void createDataWithJSONArray() {
+//		
+//		
+//        Map<String, Object> jsonObjectPayload = new LinkedHashMap<String, Object>();
+//		
+//        jsonObjectPayload.put("id", 1);
+//        jsonObjectPayload.put("F_Name", "Kalpesh");
+//        jsonObjectPayload.put("L_Name", "Patil");
+//        jsonObjectPayload.put("Salary", 3000);
+//		
+//		Map<String, Object> addressMap = new LinkedHashMap<String, Object>();
+//		
+//		addressMap.put("HomeNumber", 243);
+//		addressMap.put("City", "Jalgaon");
+//		addressMap.put("State", "Maharastra");
+//		
+//		jsonObjectPayload.put("address", addressMap);
+//		
+//		RestAssured.given().log().all().body(jsonObjectPayload).get();
+//		
+//	}
 
 }

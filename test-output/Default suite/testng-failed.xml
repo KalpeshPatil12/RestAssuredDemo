@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DemoRequests.Create_User">
+      <class name="DemoRequests.View_Single_User">
         <methods>
-          <include name="createNewUserWithValidData"/>
+          <include name="seeUserForID_0"/>
         </methods>
-      </class> <!-- DemoRequests.Create_User -->
+      </class> <!-- DemoRequests.View_Single_User -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
