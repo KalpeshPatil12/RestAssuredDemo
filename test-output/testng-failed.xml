@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DemoRequests.View_Single_User">
+      <class name="DemoRequests.List_Unknown_User">
         <methods>
-          <include name="seeUserForID_0"/>
+          <include name="seeTheDataOfInvalidIDOfUnknownUser"/>
         </methods>
-      </class> <!-- DemoRequests.View_Single_User -->
+      </class> <!-- DemoRequests.List_Unknown_User -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
