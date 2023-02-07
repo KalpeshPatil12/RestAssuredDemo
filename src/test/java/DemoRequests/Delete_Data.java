@@ -8,7 +8,7 @@ public class Delete_Data {
 
 	
 	/*
-	 * Delete data for valid ID
+	 * Delete the data for valid user ID
 	 */
 	
 	@Test
@@ -23,7 +23,7 @@ public class Delete_Data {
 	}
 	
 	/*
-	 * Delete data for Invalid ID
+	 * Delete the data for Invalid user ID
 	 */
 	
 	@Test

@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class Registeration {
 	
 	/*
-	 * Register with valid Email and Password
+	 * Register the user with valid Email and Password
 	 */
 	
 	@Test
@@ -33,7 +33,7 @@ public class Registeration {
 	}
 	
 	/*
-	 * Register with valid Email and invalid Password
+	 * Register the user with valid Email and invalid Password
 	 */
 	
 	@Test
@@ -58,7 +58,7 @@ public class Registeration {
 	}
 	
 	/*
-	 * Register with invalid Email and Password
+	 * Register the user with invalid Email and Password
 	 */
 	
 	@Test
@@ -81,7 +81,7 @@ public class Registeration {
 	}
 	
 	/*
-	 * Register with empty Email and Password
+	 * Register the user with empty Email and Password
 	 */
 	
 	@Test
@@ -104,7 +104,7 @@ public class Registeration {
 	}
 	
 	/*
-	 * Register with only entering Email
+	 * Register the user with only entering Email
 	 */
 	
 	@Test
@@ -127,7 +127,7 @@ public class Registeration {
 	}
 	
 	/*
-	 * Register with only entering Password
+	 * Register the user with only entering Password
 	 */
 	
 	@Test
