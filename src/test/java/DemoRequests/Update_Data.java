@@ -9,7 +9,7 @@ public class Update_Data {
 
 	
 	/*
-	 * Update the data with valid ID
+	 * Update the user data with valid ID
 	 */
 	
 	@Test
@@ -33,7 +33,7 @@ public class Update_Data {
 	}
 	
 	/*
-	 * Update the Data with Invalid ID
+	 * Update the user Data with Invalid ID
 	 */
 	
 	@Test
@@ -57,7 +57,7 @@ public class Update_Data {
 	}
 	
 	/*
-	 * Update the Data with ID=0
+	 * Update the user Data with ID=0
 	 */
 	
 	@Test

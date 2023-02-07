@@ -37,7 +37,7 @@ public class List_Unknown_User {
 	}
 	
 	/*
-	 * See the Data of Particular ID for Unknown User
+	 * See the Data of Particular user ID for Unknown User
 	 */
 	
 	@Test
@@ -52,7 +52,7 @@ public class List_Unknown_User {
 	}
 	
 	/*
-	 * See the Data of Invalid ID of Unknown User
+	 * See the Data of Unknown User for Invalid ID
 	 */
 	
 	@Test

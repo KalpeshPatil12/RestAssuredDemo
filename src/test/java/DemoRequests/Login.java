@@ -16,7 +16,7 @@ import io.restassured.http.ContentType;
 public class Login {
 	
 	/*
-	 * Login with valid email and password
+	 * Login the user with valid email and password
 	 */
 	
 	@Test
@@ -39,7 +39,7 @@ public class Login {
 	}
 	
 	/*
-	 * Login with valid email and invalid password
+	 * Login the user with valid email and invalid password
 	 */
 	
 	@Test
@@ -63,7 +63,7 @@ public class Login {
 	}
 	
 	/*
-	 * Login with invalid email and valid password
+	 * Login the user with invalid email and valid password
 	 */
 	
 	@Test
@@ -89,7 +89,7 @@ public class Login {
 	}
 	
 	/*
-	 * Login with missing Email and Password
+	 * Login the user with missing Email and Password
 	 */
 	
 	@Test
@@ -115,7 +115,7 @@ public class Login {
 	}
 	
 	/*
-	 * Login with only entering Email
+	 * Login the user with only entering Email
 	 */
 	
 	@Test
@@ -141,7 +141,7 @@ public class Login {
 	}
 	
 	/*
-	 * Login with only entering Password
+	 * Login the user with only entering Password
 	 */
 	
 	@Test
